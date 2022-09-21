@@ -9,6 +9,7 @@ using Serilog;
 using JdRunner.Database;
 using JdRunner.Filters;
 using JdRunner.Services;
+
 using JdRunner.Services.Packages;
 using JdRunner.Services.Packages.Interfaces;
 using System;
@@ -46,12 +47,12 @@ namespace JdRunner
             });
             services.AddControllers();
             services.AddDbContext<ModelContext>(options => options.UseOracle(Configuration.GetConnectionString("POSConStr")));
-            services.AddTransient<IProductExclusionPKService, ProductExclusionPKService>();
+            services.AddTransient<IOrderPKService, OrderPKService>();
             services.AddTransient<IAuthenticationDataService, AuthenticationDataService>();
             services.AddScoped<ValidateSessionAsyncActionFilter>();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProductExclusion", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "JDRunner", Version = "v1" });
                 c.OperationFilter<DefaultHeaderFilter>();
 
             });

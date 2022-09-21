@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner.csproj": {}
+    "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner\\JdRunner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner.csproj": {
+    "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner\\JdRunner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner.csproj",
+        "projectUniqueName": "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner\\JdRunner.csproj",
         "projectName": "JdRunner",
-        "projectPath": "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner.csproj",
+        "projectPath": "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner\\JdRunner.csproj",
         "packagesPath": "C:\\Users\\agholami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\obj\\",
+        "outputPath": "C:\\Users\\agholami\\source\\repos\\JdRunner\\JdRunner\\JdRunner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,25 +46,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[6.0.9, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Core": {
-              "target": "Package",
-              "version": "[2.2.5, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -72,13 +58,13 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.Extensions.Hosting.WindowsServices": {
               "target": "Package",
@@ -86,7 +72,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[5.0.2, )"
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
@@ -98,7 +84,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[4.1.0, )"
             },
             "Serilog.Sinks.File": {
               "target": "Package",
@@ -106,7 +92,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.1.4, )"
             }
           },
           "imports": [

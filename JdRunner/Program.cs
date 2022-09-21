@@ -28,10 +28,10 @@ namespace JdRunner
                .ConfigureWebHostDefaults(webBuilder =>
                {
                    webBuilder.UseStartup<Startup>();
-                   string envUrls = Environment.GetEnvironmentVariable("PRODUCT_EXCLUSION_ENV_URLS", EnvironmentVariableTarget.Machine);
+                   string envUrls = Environment.GetEnvironmentVariable("J_D_Runner_ENV_URLS", EnvironmentVariableTarget.Machine);
                    if (String.IsNullOrEmpty(envUrls))
                    {
-                       throw new Exception("Undefined System Environment Variable(PRODUCT_EXCLUSION_ENV_URLS)");
+                       throw new Exception("Undefined System Environment Variable(J_D_Runner_ENV_URLS)");
                    }
                    string[] urls = envUrls.Split(',');
 
